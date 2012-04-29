@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mozilla - Firefox on Android Website Testing</title>
+	<meta charset=utf-8>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+	<script src="lib/js/topsites.js"></script>
+	<link rel="stylesheet" href="lib/css/topsites.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="content">
+ <center>
+	<div id='page-header'>Try this site in Firefox on Android!</div>
+	<div class="topsites-inner">
+	  <div class="active-item"></div>
+ 	</div>
+ 	 <div id="question-inner">
+ 	  <form id="form">
+ 	 	<div>Does the site look <u><abbr title="Does the site layout and appearance look correct?">right</abbr></u>?<br/>
+ 	 		<input type="radio" name="Layout" value="yes" /> Yes
+ 	  		<input type="radio" name="Layout" value="no" /> No
+ 	  	</div>
+ 	  	<div>Does the site work <u><abbr title="Does the site function?">correctly</abbr></u>?<br/>
+ 	  		<input type="radio" name="Functional" value="yes" /> Yes
+ 	  		<input type="radio" name="Functional" value="no" /> No
+ 	  	</div>
+ 	  	<textarea name="Comments" id="comments" placeholder="Comments?"></textarea><br />
+ 	  	<button id="submit" class="button" type="submit">Submit</button>
+ 	  	<input type="hidden" name="URL" id="url" />
+ 	  </form>
+ 	  <div id="dialog-message">
+ 	  	<p>Thank you for testing this website!</p>
+ 	  </div>
+ 	 </div>
+  </center>
+</div>
+</body>
+</html>

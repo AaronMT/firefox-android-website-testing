@@ -1,0 +1,13 @@
+{
+  "version": "0.5",
+  "name": "Firefox on Android Website Testing",
+  "description": "Help provide feedback for website testing in Firefox on Android!",
+  "icons": {
+    "16": "/lib/rsc/phone-16.png",
+    "32": "/lib/rsc/phone-32.png"
+  },
+  "developer": {
+    "name": "Aaron Train",
+    "url": "http://aaronmt.com"
+  }
+}
