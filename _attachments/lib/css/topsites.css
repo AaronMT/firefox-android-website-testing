@@ -1,0 +1,71 @@
+html { 
+   background-image: url("../rsc/bg-lightblue.png"); 
+}
+a:link, a:visited {
+   text-decoration: none; color: black;
+}
+a:hover {
+   border-bottom: 2px solid black;
+}
+a#counter:hover {
+   border: 0;
+   text-decoration: underline;
+}
+
+/*@media only screen and (min-device-width: 320px) and (max-device-width: 1280px){*/
+body { 
+   padding: 0px;
+   text-align: center;
+   font-family: 'Nunito', sans-serif;
+}
+#url {
+   font-size: 2em;
+}
+#page-header {
+   margin-top: 05%;
+   font-size: 1.75em;
+}
+#question-inner {
+   font-size: 0.75em;
+}
+#comments {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   height: 50px;
+   margin-left: 2px; 
+   margin-right: 2px;
+   width: 22em;
+}
+button {
+   background: #262C32;
+   width: 10em;
+   padding: 4px;
+   letter-spacing: 1px;
+   border: none;
+   color: #EFDDA8;
+   border-radius: 3px;
+}
+#content {
+   margin: 0px auto;
+   text-align: center;
+   padding: 15px;
+   border: 1px dashed #333;
+   background-image: url("../rsc/bg-light.png");
+   border-color: rgb(94,128,153);
+   border-radius: 3px;
+}
+#contact {
+   margin-top: 1em;
+   padding: 3px;
+   font-size: 1em;
+   text-align: left;
+   float: left;
+}
+#nsfw {
+   margin-top: 1em;
+   padding: 3px;
+   font-size: 1em;
+   text-align: right;
+   float: right;
+}
+/*}*/

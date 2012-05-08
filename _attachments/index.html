@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mozilla - Firefox on Android Website Testing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta charset=utf-8>
+  <script src="script/jquery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+  <script src="script/jquery.couch.js"></script>
+  <script src="vendor/couchapp/jquery.couchLogin.js"></script>
+  <script src="vendor/couchapp/jquery.couchProfile.js"></script>
+  <script src="vendor/couchapp/md5.js"></script>
+  <script src="vendor/couchapp/jquery.mustache.js"></script>
+  <script src="vendor/couchapp/jquery.form.js"></script>
+  <script src="script/app.js"></script>
+  <script src="script/sha1.js"></script>
+  <script src="script/json2.js"></script>
+	<script src="lib/js/topsites.js"></script>
+	<link rel="stylesheet" href="lib/css/topsites.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="content">
+	<div id='page-header'>Try this site in Firefox on Android!</div>
+	<div class="topsites-inner">
+	  <div class="active-item"></div>
+ 	</div>
+ 	 <div id="question-inner">
+ 	  <form id="form">
+ 	 	 <div>Does the site look <u><abbr title="Does the site layout and appearance look correct?">right</abbr></u>?
+ 	 		<input type="radio" name="Layout" value="yes" /> Yes
+ 	  	<input type="radio" name="Layout" value="no" /> No
+ 	   </div>
+ 	   <div>Does the site work <u><abbr title="Does the site function correctly?">correctly</abbr></u>?
+ 	  	<input type="radio" name="Functional" value="yes" /> Yes
+ 	  	<input type="radio" name="Functional" value="no" /> No
+ 	   </div>
+     <div>
+ 	  	<textarea name="Comments" id="comments" placeholder="Comments?"></textarea><br />
+ 	   </div>
+     <div>
+      <button id="skip" class="skip">Skip Site</button>
+      <button id="submit" class="button" type="submit">Submit</button>
+ 	   </div>
+      <input type="hidden" name="URL" id="url" />
+ 	  </form>
+   
+    <footer id="footer">
+      <div id="contact">Visit Mozilla QA at irc.mozilla.org #qa</div>
+      <div id="nsfw">Note: Some sites may not be suitable for view at work</div>
+    </footer>
+ 	 </div>
+</div>
+</body>
+</html>
