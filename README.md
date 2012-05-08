@@ -1,6 +1,4 @@
-## Generated CouchApp
-
-This is meant to be an example CouchApp and to ship with most of the CouchApp goodies.
+## Firefox on Android - Website Testing
 
 Clone with git:
 
